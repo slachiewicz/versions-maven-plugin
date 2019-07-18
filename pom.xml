@@ -111,8 +111,8 @@
 
     <mavenVersion>2.2.1</mavenVersion>
     <wagonVersion>2.12</wagonVersion>
-    <doxiaVersion>1.7</doxiaVersion>
-    <doxia-sitetoolsVersion>1.7</doxia-sitetoolsVersion>
+    <doxiaVersion>1.9</doxiaVersion>
+    <doxia-sitetoolsVersion>1.9</doxia-sitetoolsVersion>
     <pluginVersion>${project.version}</pluginVersion>
     <sitePluginVersion>3.6</sitePluginVersion>
   </properties>
@@ -413,7 +413,7 @@
             <mockRepo>
               <source>src/it-repo</source>
             </mockRepo>
-            <proxyRepo />
+            <proxyRepo/>
           </repositories>
         </configuration>
       </plugin>
