@@ -109,7 +109,7 @@
   <properties>
     <mojo.java.target>1.7</mojo.java.target>
 
-    <mavenVersion>2.2.1</mavenVersion>
+    <mavenVersion>3.6.3</mavenVersion>
     <wagonVersion>2.12</wagonVersion>
     <doxiaVersion>1.7</doxiaVersion>
     <doxia-sitetoolsVersion>1.7</doxia-sitetoolsVersion>
@@ -419,7 +419,7 @@
             <mockRepo>
               <source>src/it-repo</source>
             </mockRepo>
-            <proxyRepo />
+            <proxyRepo/>
           </repositories>
         </configuration>
       </plugin>
